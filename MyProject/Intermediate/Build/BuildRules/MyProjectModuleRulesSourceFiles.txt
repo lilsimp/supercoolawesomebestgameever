@@ -1,0 +1,3 @@
+C:\Users\Sawyer\Desktop\supercoolawesomegameever\MyProject\Source\MyProject\MyProject.Build.cs
+C:\Users\Sawyer\Desktop\supercoolawesomegameever\MyProject\Source\MyProject.Target.cs
+C:\Users\Sawyer\Desktop\supercoolawesomegameever\MyProject\Source\MyProjectEditor.Target.cs
