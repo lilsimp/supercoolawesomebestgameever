@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{1df776b3-ff5e-4a4c-b11d-da40a7294816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Include">
+      <UniqueIdentifier>{1eb675c8-aa1a-469e-ad8d-e2eebf246ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source">
+      <UniqueIdentifier>{e7100402-6a1c-4895-8bda-cd536d1aff15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{7d273508-6998-4f30-817b-8e4895e12d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spaces">
+      <UniqueIdentifier>{aa7fa277-8628-4deb-b2fc-68de6da53a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spaces\Include">
+      <UniqueIdentifier>{d6e73c90-f6e1-457a-947b-6e432e5c9d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spaces\Source">
+      <UniqueIdentifier>{bc63d151-0344-4801-a214-37fa89ed5908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Include">
+      <UniqueIdentifier>{c6a355d3-bbd6-4f7b-9141-f3d0d0794562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source">
+      <UniqueIdentifier>{1a073e38-76e4-4969-abd1-f681ae3830da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b4afce8a-94c1-4502-b590-a0e5424765df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Components">
+      <UniqueIdentifier>{6a6d6e4a-feb3-45b5-8861-909bf7714114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Components\Include">
+      <UniqueIdentifier>{25c19503-2e58-4aed-a8a3-0d65b3d92023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Components\Source">
+      <UniqueIdentifier>{01d13140-9da6-4193-8647-4e4c07b8dd0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{be57b6bc-882c-4c55-823f-f18f05010aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Include">
+      <UniqueIdentifier>{8f69cb03-fe02-4bfa-a96d-0a24f9c60954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Source">
+      <UniqueIdentifier>{80212046-11bb-40ff-8871-66a7607cb045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Fragment">
+      <UniqueIdentifier>{255687bd-6824-4fd5-a283-f5bda6722e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Vertex">
+      <UniqueIdentifier>{1d9155b9-a016-4f1a-bd71-febaa25f7000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{0cadc6db-1a59-4a13-9a55-7545d5592dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Include">
+      <UniqueIdentifier>{6daf76b7-4f0b-4ec0-9e8b-d135c58173ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Source">
+      <UniqueIdentifier>{f7dad455-124b-4d0f-8459-903befebcbba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Transform.cpp">
+      <Filter>Objects\Components\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Playground_Level.cpp">
+      <Filter>Spaces\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Input.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrameTime.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scripts.cpp">
+      <Filter>Utils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics.cpp">
+      <Filter>Objects\Components\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectManager.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\controls.cpp">
+      <Filter>Utils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StrafeBehavior.cpp">
+      <Filter>Objects\Components\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RandomRotationBehavior.cpp">
+      <Filter>Objects\Components\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Graphics\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\GameStateList.h">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Input.h">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\System.h">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Component.h">
+      <Filter>Objects\Components\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Level.h">
+      <Filter>Spaces\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Playground_Level.h">
+      <Filter>Spaces\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\main.h" />
+    <ClInclude Include="Include\Transform.h">
+      <Filter>Objects\Components\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Objects.h">
+      <Filter>Objects\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameStateManager.h">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine.h">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FrameTime.h">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Scripts.h">
+      <Filter>Utils\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Physics.h">
+      <Filter>Objects\Components\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Components.h">
+      <Filter>Objects\Components\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ObjectManager.h">
+      <Filter>Objects\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Camera.h">
+      <Filter>Objects\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Render.h">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\controls.h">
+      <Filter>Utils\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\StrafeBehavior.h">
+      <Filter>Objects\Components\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RandomRotationBehavior.h">
+      <Filter>Objects\Components\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mesh.h">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Model.h">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Shader.h">
+      <Filter>Graphics\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\DeferredGeometry.fs">
+      <Filter>Shaders\Fragment</Filter>
+    </None>
+    <None Include="Shaders\MultiLight.fs">
+      <Filter>Shaders\Fragment</Filter>
+    </None>
+    <None Include="Shaders\DeferredGeometry.vs">
+      <Filter>Shaders\Vertex</Filter>
+    </None>
+    <None Include="Shaders\MultiLight.vs">
+      <Filter>Shaders\Vertex</Filter>
+    </None>
+    <None Include="Shaders\TextureFragmentShader.fs">
+      <Filter>Shaders\Fragment</Filter>
+    </None>
+    <None Include="Shaders\TransformVertexShader.vs">
+      <Filter>Shaders\Vertex</Filter>
+    </None>
+    <None Include="Shaders\materials.vs">
+      <Filter>Shaders\Vertex</Filter>
+    </None>
+    <None Include="Shaders\materials.fs">
+      <Filter>Shaders\Fragment</Filter>
+    </None>
+  </ItemGroup>
+</Project>

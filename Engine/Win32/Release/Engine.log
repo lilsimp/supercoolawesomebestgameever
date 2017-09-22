@@ -1,0 +1,20 @@
+﻿  shader.cpp
+  ComponentManager.cpp
+  GameSpaceManager.cpp
+  Input.cpp
+  main.cpp
+Source\main.cpp(8): warning C4101: 'i': unreferenced local variable
+  Objects.cpp
+  Playground_Level.cpp
+  Sprite.cpp
+Source\Sprite.cpp(9): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+Source\Sprite.cpp(10): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+Source\Sprite.cpp(11): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  System.cpp
+  Transform.cpp
+  Generating code
+c:\sandbox\engine\source\system.cpp(47): warning C4715: 'System_Initialize': not all control paths return a value
+  All 487 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Engine.vcxproj -> C:\Sandbox\Engine\Win32\Release\Engine.exe
+  Engine.vcxproj -> C:\Sandbox\Engine\Win32\Release\Engine.pdb (Full PDB)

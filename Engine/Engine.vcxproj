@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BCCF652D-B3A1-4EAA-BB11-9E10A9C2E49D}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)External\SOIL\includes;$(ProjectDir)External\assimp\includes;$(ProjectDir)External\OpenGL\include;$(ProjectDir)Include;$(ProjectDir)Shaders;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)External\SOIL\libs\$(Platform);$(ProjectDir)External\OpenGL\libs\$(Platform);$(ProjectDir)External\assimp\libs\$(Platform);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\Rule Sets\NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)External\SOIL\includes;$(ProjectDir)External\assimp\includes;$(ProjectDir)External\OpenGL\include;$(ProjectDir)Include;$(ProjectDir)Shaders;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)External\SOIL\libs\$(Platform);$(ProjectDir)External\OpenGL\libs\$(Platform);$(ProjectDir)External\assimp\libs\$(Platform);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\Rule Sets\NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(ProjectDir)External\SOIL\includes;$(ProjectDir)External\assimp\includes;$(ProjectDir)External\OpenGL\include;$(ProjectDir)Include;$(ProjectDir)Shaders;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)External\SOIL\libs\$(Platform);$(ProjectDir)External\OpenGL\libs\$(Platform);$(ProjectDir)External\assimp\libs\$(Platform);$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\Rule Sets\NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(ProjectDir)External\SOIL\includes;$(ProjectDir)External\assimp\includes;$(ProjectDir)External\OpenGL\include;$(ProjectDir)Include;$(ProjectDir)Shaders;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)External\SOIL\libs\$(Platform);$(ProjectDir)External\OpenGL\libs\$(Platform);$(ProjectDir)External\assimp\libs\$(Platform);$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\Rule Sets\NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)External\SOIL\includes;$(ProjectDir)External\assimp\includes;$(ProjectDir)External\OpenGL\include;$(ProjectDir)Include;$(ProjectDir)Shaders;$(VC_IncludePath);$(WindowsSDK_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ProjectDir)External\SOIL\libs\$(Platform);$(ProjectDir)External\assimp\libs\$(Platform);$(ProjectDir)External\OpenGL\libs\$(Platform);$(LibraryPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SOIL.lib;assimp-vc140-mt.lib;glew32.lib;glew32s.lib;glfw3.lib;glfw3dll.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)External\SOIL\includes;$(ProjectDir)External\assimp\includes;$(ProjectDir)External\OpenGL\include;$(ProjectDir)Include;$(ProjectDir)Shaders;$(VC_IncludePath);$(WindowsSDK_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ProjectDir)External\SOIL\libs\$(Platform);$(ProjectDir)External\assimp\libs\$(Platform);$(ProjectDir)External\OpenGL\libs\$(Platform);$(LibraryPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SOIL.lib;assimp-vc140-mt.lib;glew32.lib;glew32s.lib;glfw3.lib;glfw3dll.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)External\SOIL\includes;$(ProjectDir)External\assimp\includes;$(ProjectDir)External\OpenGL\include;$(ProjectDir)Include;$(ProjectDir)Shaders;$(VC_IncludePath);$(WindowsSDK_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)External\SOIL\libs\$(Platform);$(ProjectDir)External\assimp\libs\$(Platform);$(ProjectDir)External\OpenGL\libs\$(Platform);$(LibraryPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SOIL.lib;assimp-vc140-mt.lib;glew32.lib;glew32s.lib;glfw3.lib;glfw3dll.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)External\SOIL\includes;$(ProjectDir)External\assimp\includes;$(ProjectDir)External\OpenGL\include;$(ProjectDir)Include;$(ProjectDir)Shaders;$(VC_IncludePath);$(WindowsSDK_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)External\SOIL\libs\$(Platform);$(ProjectDir)External\assimp\libs\$(Platform);$(ProjectDir)External\OpenGL\libs\$(Platform);$(LibraryPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SOIL.lib;assimp-vc140-mt.lib;glew32.lib;glew32s.lib;glfw3.lib;glfw3dll.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\controls.cpp" />
+    <ClCompile Include="Source\Mesh.cpp" />
+    <ClCompile Include="Source\Model.cpp" />
+    <ClCompile Include="Source\RandomRotationBehavior.cpp" />
+    <ClCompile Include="Source\Shader.cpp" />
+    <ClCompile Include="Source\StrafeBehavior.cpp" />
+    <ClCompile Include="Source\Engine.cpp" />
+    <ClCompile Include="Source\FrameTime.cpp" />
+    <ClCompile Include="Source\GameStateManager.cpp" />
+    <ClCompile Include="Source\Input.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\ObjectManager.cpp" />
+    <ClCompile Include="Source\Objects.cpp" />
+    <ClCompile Include="Source\Physics.cpp" />
+    <ClCompile Include="Source\Playground_Level.cpp" />
+    <ClCompile Include="Source\Render.cpp" />
+    <ClCompile Include="Source\Scripts.cpp" />
+    <ClCompile Include="Source\System.cpp" />
+    <ClCompile Include="Source\Transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Camera.h" />
+    <ClInclude Include="Include\Component.h" />
+    <ClInclude Include="Include\Components.h" />
+    <ClInclude Include="Include\controls.h" />
+    <ClInclude Include="Include\Mesh.h" />
+    <ClInclude Include="Include\Model.h" />
+    <ClInclude Include="Include\RandomRotationBehavior.h" />
+    <ClInclude Include="Include\Shader.h" />
+    <ClInclude Include="Include\StrafeBehavior.h" />
+    <ClInclude Include="Include\Engine.h" />
+    <ClInclude Include="Include\FrameTime.h" />
+    <ClInclude Include="Include\GameStateManager.h" />
+    <ClInclude Include="Include\GameStateList.h" />
+    <ClInclude Include="Include\Input.h" />
+    <ClInclude Include="Include\Level.h" />
+    <ClInclude Include="Include\main.h" />
+    <ClInclude Include="Include\ObjectManager.h" />
+    <ClInclude Include="Include\Objects.h" />
+    <ClInclude Include="Include\Physics.h" />
+    <ClInclude Include="Include\Playground_Level.h" />
+    <ClInclude Include="Include\Render.h" />
+    <ClInclude Include="Include\Scripts.h" />
+    <ClInclude Include="Include\System.h" />
+    <ClInclude Include="Include\Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\DeferredGeometry.fs" />
+    <None Include="Shaders\DeferredGeometry.vs" />
+    <None Include="Shaders\materials.fs" />
+    <None Include="Shaders\materials.vs" />
+    <None Include="Shaders\MultiLight.fs" />
+    <None Include="Shaders\MultiLight.vs" />
+    <None Include="Shaders\TextureFragmentShader.fs" />
+    <None Include="Shaders\TransformVertexShader.vs" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

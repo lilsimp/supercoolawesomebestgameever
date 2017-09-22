@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\MyProject.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{89A2D458-0F02-4E47-85D0-4D7B16445ABF}</UniqueIdentifier>
+			<UniqueIdentifier>{7A52FBBA-D751-4954-8699-E6EA9279F370}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\MyProject.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{4DABC7D6-5EB7-4687-8D56-B5F1D991731C}</UniqueIdentifier>
+			<UniqueIdentifier>{C0B19ACB-7DC4-4A34-A7E2-82FE6583EFA6}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\MyProject">
-			<UniqueIdentifier>{A4354D6D-23D9-4DB8-B798-D72CE6794733}</UniqueIdentifier>
+			<UniqueIdentifier>{0CB577B5-E725-4522-BA64-5133192C3DEC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\MyProject\MyProject.Build.cs">
 			<Filter>Source\MyProject</Filter>
@@ -40,6 +40,12 @@
 			<Filter>Source\MyProject</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\MyProject\MyProjectGameModeBase.h">
+			<Filter>Source\MyProject</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MyProject\PlayerMovement.cpp">
+			<Filter>Source\MyProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyProject\PlayerMovement.h">
 			<Filter>Source\MyProject</Filter>
 		</ClInclude >
 	</ItemGroup>
