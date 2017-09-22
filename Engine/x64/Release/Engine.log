@@ -1,22 +1,47 @@
-﻿  Engine.cpp
+﻿  controls.cpp
+Source\controls.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+Source\Mesh.cpp(23): warning C4244: 'argument': conversion from 'GLuint' to 'float', possible loss of data
+Source\Mesh.cpp(25): warning C4244: 'argument': conversion from 'GLuint' to 'float', possible loss of data
+Source\Mesh.cpp(34): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model.cpp
+  RandomRotationBehavior.cpp
+Source\RandomRotationBehavior.cpp(15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Shader.cpp
+  StrafeBehavior.cpp
+  Engine.cpp
+  FrameTime.cpp
   GameStateManager.cpp
+  Input.cpp
+  main.cpp
   ObjectManager.cpp
-Source\ObjectManager.cpp(33): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
-Source\ObjectManager.cpp(41): warning C4101: 'obj': unreferenced local variable
+Source\ObjectManager.cpp(32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+Source\ObjectManager.cpp(40): warning C4101: 'obj': unreferenced local variable
   Objects.cpp
+Source\Objects.cpp(5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Physics.cpp
 Source\Physics.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Playground_Level.cpp
-  RandomRotationBehavior.cpp
-Source\RandomRotationBehavior.cpp(16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Render.cpp
-  Sprite.cpp
-  StrafeBehavior.cpp
+Source\Render.cpp(79): warning C4305: 'argument': truncation from 'double' to 'float'
+Source\Render.cpp(80): warning C4305: 'argument': truncation from 'double' to 'float'
+Source\Render.cpp(87): warning C4305: 'argument': truncation from 'double' to 'float'
+Source\Render.cpp(88): warning C4305: 'argument': truncation from 'double' to 'float'
+Source\Render.cpp(95): warning C4305: 'argument': truncation from 'double' to 'float'
+Source\Render.cpp(96): warning C4305: 'argument': truncation from 'double' to 'float'
+Source\Render.cpp(103): warning C4305: 'argument': truncation from 'double' to 'float'
+Source\Render.cpp(104): warning C4305: 'argument': truncation from 'double' to 'float'
+Source\Render.cpp(112): warning C4305: 'argument': truncation from 'double' to 'float'
+Source\Render.cpp(113): warning C4305: 'argument': truncation from 'double' to 'float'
+  Scripts.cpp
+Source\Scripts.cpp(5): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+Source\Scripts.cpp(6): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  System.cpp
   Transform.cpp
   Generating code
-  68 of 1060 functions ( 6.4%) were compiled, the rest were copied from previous compilation.
-    32 functions were new in current compilation
-    15 functions had inline decision re-evaluated but remain unchanged
+  1160 of 1165 functions (99.6%) were compiled, the rest were copied from previous compilation.
+    43 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Engine.vcxproj -> C:\Sandbox\Engine\x64\Release\Engine.exe
-  Engine.vcxproj -> C:\Sandbox\Engine\x64\Release\Engine.pdb (Full PDB)
+  Engine.vcxproj -> C:\Users\Sawyer\Desktop\supercoolawesomegameever\Engine\x64\Release\Engine.exe
+  Engine.vcxproj -> C:\Users\Sawyer\Desktop\supercoolawesomegameever\Engine\x64\Release\Engine.pdb (Full PDB)

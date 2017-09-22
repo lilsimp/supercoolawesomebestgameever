@@ -1,3 +1,44 @@
-﻿  Playground_Level.cpp
-  Engine.vcxproj -> C:\Sandbox\Engine\x64\Debug\Engine.exe
-  Engine.vcxproj -> C:\Sandbox\Engine\x64\Debug\Engine.pdb (Partial PDB)
+﻿  Transform.cpp
+  System.cpp
+  Scripts.cpp
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\scripts.cpp(5): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\scripts.cpp(6): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Render.cpp
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(79): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(80): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(87): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(88): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(95): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(96): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(103): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(104): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(112): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\render.cpp(113): warning C4305: 'argument': truncation from 'double' to 'float'
+  Playground_Level.cpp
+  Physics.cpp
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\physics.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Objects.cpp
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\objects.cpp(5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ObjectManager.cpp
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\objectmanager.cpp(32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\objectmanager.cpp(40): warning C4101: 'obj': unreferenced local variable
+  main.cpp
+  Input.cpp
+  GameStateManager.cpp
+  FrameTime.cpp
+  Engine.cpp
+  StrafeBehavior.cpp
+  Shader.cpp
+  RandomRotationBehavior.cpp
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\randomrotationbehavior.cpp(15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Model.cpp
+  Mesh.cpp
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\mesh.cpp(23): warning C4244: 'argument': conversion from 'GLuint' to 'float', possible loss of data
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\mesh.cpp(25): warning C4244: 'argument': conversion from 'GLuint' to 'float', possible loss of data
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\mesh.cpp(34): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  controls.cpp
+c:\users\sawyer\desktop\supercoolawesomegameever\engine\source\controls.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Engine.vcxproj -> C:\Users\Sawyer\Desktop\supercoolawesomegameever\Engine\x64\Debug\Engine.exe
+  Engine.vcxproj -> C:\Users\Sawyer\Desktop\supercoolawesomegameever\Engine\x64\Debug\Engine.pdb (Partial PDB)

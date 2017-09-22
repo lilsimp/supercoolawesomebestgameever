@@ -1,0 +1,54 @@
+newmtl blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cannoncolor.png
+bump cannon_normal.png -bm 0.777778
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks cannon spec.png
+newmtl blinn2SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump Normals.png -bm 0.62963
+Ni 1.00
+Ks 0.59 0.59 0.59
+newmtl blinn8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd wheelcolor.png
+bump wheelnormals.png -bm 0.673759
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks id__wheels_Roughness.png
+newmtl blinn9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cannoncolor.png
+bump cannon_normal.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks cannon spec.png
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd woodcolor.png
+bump color_id_wood_Normal_DirectX.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks color_id_wood_Roughness.png
